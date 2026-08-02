@@ -1,0 +1,29 @@
+# Build artifacts
+target/
+project/target/
+project/project/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Spark/Hadoop
+*.log
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Data (too large for git — generate or download locally)
+sample_data/
+fullscale_data/
+raw_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
