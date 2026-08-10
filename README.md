@@ -11,7 +11,7 @@ Big Data Analytics Course (23AID302) | Amrita Vishwa Vidyapeetham
 | **Tanay** | CB.AI.U4AID24059 | Graph Engine (Spark GraphX) | `graph-engine/` (this root) |
 | **Navaneeth** | — | Data Ingestion & Cleaning (Spark) | `data-pipeline/` |
 | **Harsada** | — | ML Pipeline (demand prediction) | `ml-pipeline/` |
-| **Sandhya** | — | Dashboard & Visualization | `dashboard/` |
+| **Sasmitha** | — | Dashboard & Visualization | `dashboard/` |
 
 ## Architecture
 
@@ -31,7 +31,7 @@ NYC Open Data  ──►  Data Pipeline  ──►  Graph Engine  ──►  ML 
 | Cleaned nodes | `/data/nodes/*.parquet` | Parquet | Navaneeth | Tanay |
 | Combined trips | `/data/combined/trips.parquet` | Parquet | Navaneeth | Tanay |
 | Graph features | `/data/graph_features/features.parquet` | Parquet | Tanay | Harsada |
-| ML predictions | `/data/predictions/*.parquet` | Parquet | Harsada | Sandhya |
+| ML predictions | `/data/predictions/*.parquet` | Parquet | Harsada | Sasmitha |
 
 ### Node Parquet schemas
 
@@ -100,7 +100,7 @@ Push your Spark ETL code to `data-pipeline/`. Your output Parquet files should m
 ### Harsada (ML Pipeline)
 Push your ML code to `ml-pipeline/`. Your input is `features.parquet` from the graph engine — it has PageRank, community ID, in/out degree for every node. You can test with the full-scale features already generated.
 
-### Sandhya (Dashboard)
+### Sasmitha (Dashboard)
 Push your dashboard code to `dashboard/`. You'll consume both graph features and ML predictions.
 
 ### How to contribute
