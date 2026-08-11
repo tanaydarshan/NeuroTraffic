@@ -17,6 +17,7 @@ spark-warehouse/
 # Data (too large for git — generate or download locally)
 sample_data/
 fullscale_data/
+real_data/
 raw_data/
 
 # OS
