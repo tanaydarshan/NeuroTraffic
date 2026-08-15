@@ -3,9 +3,11 @@ target/
 project/target/
 project/project/
 
-# IDE
+# IDE / tool config
 .idea/
 .vscode/
+.metals/
+.claude/
 *.iml
 
 # Spark/Hadoop
@@ -14,11 +16,12 @@ derby.log
 metastore_db/
 spark-warehouse/
 
-# Data (too large for git — generate or download locally)
+# Data (too large for git — download via download_real_data.py)
 sample_data/
 fullscale_data/
 real_data/
 raw_data/
+dashboard/data/raw/
 
 # OS
 .DS_Store
